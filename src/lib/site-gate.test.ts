@@ -1,4 +1,3 @@
-// @vitest-environment node
 import { afterEach, beforeEach, describe, expect, test } from 'vitest';
 import { checkSiteGate, createGateCookie, GATE_COOKIE_TTL } from './site-gate';
 
